@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    margin-top: 10px;
+    width: 99vw;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+}

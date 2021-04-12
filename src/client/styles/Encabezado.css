@@ -1,0 +1,65 @@
+.encabezado {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 26px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px #4d4d4d solid;
+    justify-content: space-around;
+}
+
+.encabezado ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.encabezado .titulo1{
+    margin-right: 200px;
+}
+.encabezado ul.titulo1 li {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height:70%;
+}
+
+.encabezado ul.titulo2 li {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height:70%;
+}
+
+.encabezado li a.imagen1 {
+    border-right: 1px #4d4d4d solid;
+}
+
+.encabezado .imagenMarginada {
+    padding-right: 100px;
+}
+
+.encabezado li a {
+    display: flex;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-size: contain;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+}
+
+.imagen1 {
+    background-image: url("https://www.asus.com/media/Odin/images/header/rog-gray.svg");
+}
+
+.imagen2 {
+    background-image: url("https://www.asus.com/media/Odin/images/header/proArt-gray.svg");
+}

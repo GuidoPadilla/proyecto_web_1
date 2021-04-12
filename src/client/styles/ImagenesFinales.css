@@ -1,0 +1,179 @@
+.imagenesFinales{
+    display: flex;
+    width: 100%;
+    height: 1186px;
+    flex-direction: column;
+    font-family: Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+}
+
+.imagenesFinales .Galeria{
+    display: flex;
+    width: 100%;
+    height: 521.7px;
+    flex-direction: column;
+}
+
+.imagenesFinales .Cuadro{
+    display: flex;
+    width: 100%;
+    height: 594.68px;
+    flex-direction: row;
+    gap: 1.2%;
+    margin-top: 3%;
+    position: relative;
+}
+
+.imagenesFinales .Cuadro button{
+    width: 2%;
+    position: absolute;
+    height: 10%;
+    top: 45%;
+    left: 97%;
+    background-color: gray;
+}
+
+.imagenesFinales .Galeria .imagenesGaleria{
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    height: 320px;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imagenesFinales .Galeria .imagenesGaleria a{
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+    height: 320;
+}
+
+.imagenesFinales .Galeria .imagenesGaleria img{
+    width: 100%;
+    height: 252;
+}
+
+.imagenesFinales .Galeria .imagenesGaleria a .textoImagenGaleria{
+    display: flex;
+    height: 40px;
+    background-color: #f5f5f5;
+    padding: 14px 24px 12px 24px;
+    color: #666a73;
+    font-size: 16px;
+}
+
+.imagenesFinales .Galeria .titulo{
+    text-align: center;
+    width: 100%;
+    font-size: 39px;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 10px;
+    font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+}
+
+.imagenesFinales .Galeria a{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-style: normal;
+    color: #00a3e7;
+    font-stretch: normal;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+}
+
+.imagenesFinales .Galeria .imagenesGaleria button{
+    cursor: pointer;
+    height: 18%;
+    left: 84%;
+    width: 40px;
+    position: absolute;
+    background-color: white;
+}
+
+.imagenesFinales .Cuadro .cuadroTextoGrande{
+    height: 594px;
+    width: 951px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 0.5%;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid{
+    height: 594px;
+    width: 48.5%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 49% 49%;
+    gap: 2% 1%;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid img{
+    height: 100%;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid a .textoImagenGaleria{
+    display: flex;
+    height: 25%;
+    top: 69%;
+    width: 90%;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    flex-direction: column;
+    padding: 5% 5% 2% 5%;
+    padding-top: 2%;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid a .textoImagenGaleria .titulo{
+    white-space: nowrap;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.imagenesFinales .Cuadro .imagenesFinalesGrid a .textoImagenGaleria .cuerpo{
+    white-space: nowrap;
+    color: #ccc;
+}
+
+.imagenesFinales .Cuadro .cuadroTextoGrande img{
+    height: 100%;
+}
+
+.imagenesFinales .Cuadro .cuadroTextoGrande .textoImagenGaleria{
+    display: flex;
+    top: 80.5%;
+    height: 97px;
+    width: 97.5%;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    flex-direction: column;
+    padding-top: 2%;
+    padding-left: 2.5%;
+}
+
+.imagenesFinales .Cuadro .cuadroTextoGrande .textoImagenGaleria .cuerpo{
+    color: #ccc;
+}
+
+.imagenesFinales .Cuadro .cuadroTextoGrande .textoImagenGaleria .titulo{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+.navegador {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 7%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #4d4d4d;
+}
+
+ul.cuadro1, ul.cuadro2 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+
+ul.cuadro1 {
+    width: 65%;
+    justify-content: space-evenly;
+}
+
+ul.cuadro2 {
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.navegador li {
+    display: flex;
+    width: auto;
+    height:70%;
+    align-items: center;
+}
+
+.navegador li a {
+    display: flex;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    text-decoration: none;
+    justify-content: center;
+    color: #4d4d4d;
+    font-size: 14px;
+    font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
+}
+
+.navegador li a.nav1 {
+    width: 67px;
+}
+
+
+a.nav1{
+    height: 14px;
+}
+
+.navegador li a.nav9 , .navegador li a.nav10 {
+    width: 20px;
+}
+
+a.nav9, a.nav10{
+    height: 20px;
+}
+
+
+.nav1 {
+    background-image: url("https://www.asus.com/images/logo/logo-001.svg");
+}
+
+.nav9 {
+    background-image: url("https://www.asus.com/images/icon/icon-24-search-black.svg");
+}
+
+.nav10 {
+    background-image: url("https://www.asus.com/images/icon/icon-24-member-black.svg");
+}
+

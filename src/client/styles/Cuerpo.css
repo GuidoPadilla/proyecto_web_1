@@ -1,0 +1,104 @@
+.cuerpo {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+}
+
+.imagen1 {
+    display: flex;
+    width: 100%;
+    height: 692px;
+    flex-direction: column;
+}
+
+.cuerpo .imagen1 a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cuerpo .vacio{ 
+    height: 18px;
+}
+
+.cuerpo .cuadroDeImagenes{
+    display: grid;
+    grid-template-columns: 933.5px 933.5px;
+    grid-template-rows: 580px 580px;
+    gap: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.cuerpo .imagenConTexto1, .cuerpo .imagenConTexto2, .cuerpo .imagenConTexto3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo .imagenConTexto1{
+    color: white;
+}
+
+.cuerpo .imagenConTexto2 .textoEnImagen1{
+    color: blue;
+}
+
+.cuerpo .imagenConTexto2 .textoEnImagen2, .cuerpo .imagenConTexto2 .textoEnImagen3, .cuerpo .imagenConTexto3 .textoEnImagen1, .cuerpo .imagenConTexto3 .textoEnImagen2{
+    color: black;
+}
+
+.cuerpo .imagenConTexto3 .textoEnImagen3{
+    color: lightskyblue;
+}
+
+.cuerpo .imagenConTexto3 .textoEnImagen1{
+    top: 70%;
+}
+
+.cuerpo .imagenConTexto3 .textoEnImagen2{
+    top: 80%;
+}
+
+.cuerpo .imagenConTexto3 .textoEnImagen3{
+    top: 90%;
+}
+
+.cuerpo .textoEnImagen1, .cuerpo .textoEnImagen3{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.cuerpo .textoEnImagen1{
+    top: 10%;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.cuerpo .textoEnImagen2{
+    position: absolute;
+    left: 28%;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+    width: 404px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:Xolonium;
+    overflow-wrap: break-word;
+}
+
+.cuerpo .textoEnImagen3{
+    top: 32%;
+    font-size: 20px;
+}
