@@ -17,5 +17,6 @@ creando un servidor local en el puerto 8080 siendo accesible en cualquier moment
 +`Babel`<br/>
 +`CSS`<br/>
 ## Contribuyentes
-correo: sebaspadilla2010@hotmail.com
-github: https://github.com/GuidoPadilla
+Guido Padilla<br/>
+correo: sebaspadilla2010@hotmail.com<br/>
+github: https://github.com/GuidoPadilla<br/>
