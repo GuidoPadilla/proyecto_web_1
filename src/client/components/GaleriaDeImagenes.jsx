@@ -4,23 +4,36 @@ import PropTypes from 'prop-types'
 import styles from '../styles/GaleriaDeImagenes.css'
 
 const GaleriaDeImagenes = ({ links }) => {
-  /*
   let llave = 1
+  let cont = 0
   const siguienteLlave = () => {
     llave += 1
     return (llave - 1).toString()
   }
-  const elementos = () => {
-    links.map(([link, imagen]) => (
-      <a href={link} key={siguienteLlave()}>
-        <img src={imagen} alt="" />
-      </a>
-    ))
-  }
-  */
+  const elementos = (array) => (
+    array.map(([link, imagen]) => {
+      const style = {
+        left: `${cont * 100}vw`,
+      }
+      cont += 1
+      return (
+        <a href={link} key={siguienteLlave()} style={style}>
+          <img src={imagen} alt="" />
+        </a>
+      )
+    })
+  )
   const [activo, setActivo] = React.useState(0)
   const [estilo, setEstilo] = React.useState(styles.botonNoActivo)
-
+  const galeriaStyle = {
+    right: `${activo * 100}vw`,
+  }
+  const botonCorribleIzq = {
+    left: `${activo * 100}vw`,
+  }
+  const botonCorribleDer = {
+    left: `${96.85 + (activo * 100)}vw`,
+  }
   const onHandleClickRight = () => {
     setActivo((activo + 1) % links.length)
   }
@@ -42,14 +55,12 @@ const GaleriaDeImagenes = ({ links }) => {
   }
 
   return (
-    <div className={styles.galeria}>
-      <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave}>
+    <div className={styles.galeria} style={galeriaStyle}>
+      <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleIzq}>
         <button type="button" onClick={onHandleClickLeft} className={estilo}>{'<'}</button>
       </div>
-      <a href={links[activo][0]}>
-        <img src={links[activo][1]} alt="" />
-      </a>
-      <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave}>
+      {elementos(links)}
+      <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleDer}>
         <button type="button" onClick={onHandleClickRight} className={estilo}>{'>'}</button>
       </div>
     </div>

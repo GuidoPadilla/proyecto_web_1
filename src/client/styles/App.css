@@ -3,6 +3,7 @@
     margin-top: 1vh;
     width: 99vw;
     flex-direction: column;
+    overflow-x: hidden;
     overflow-y: auto;
 }
 
