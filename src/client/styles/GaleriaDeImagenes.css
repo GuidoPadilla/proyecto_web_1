@@ -26,20 +26,24 @@
     align-items: center;
     z-index: 1;
     width: 1.5%;
-    
     height: 100%;
 }
 
 .galeria .panelButton .botonActivo{
-    height: 54px;
-    width: 39px;
+    display: flex;
+    height: 5%;
+    width: 1%;
     visibility: visible;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
 
 .galeria .panelButton .botonNoActivo{
-    height: 54px;
-    width: 39px;
+    height: 5%;
+    width: 1%;
     cursor: pointer;
     visibility: hidden;
+    position: absolute;
 }

@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 0.5px solid #4d4d4d;
+    border-bottom: 1px solid #ccc;
 }
 
 ul.cuadro1, ul.cuadro2 {
@@ -18,13 +18,15 @@ ul.cuadro1, ul.cuadro2 {
 }
 
 ul.cuadro1 {
+    margin-left: 14%;
     width: 65%;
-    justify-content: space-evenly;
+    gap: 2%;
 }
 
 ul.cuadro2 {
     width: 10%;
     justify-content: space-evenly;
+    margin-right: 14%;
 }
 
 .navegador li {
@@ -43,25 +45,25 @@ ul.cuadro2 {
     text-decoration: none;
     justify-content: center;
     color: #4d4d4d;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
 }
 
 .navegador li a.nav1 {
-    width: 67px;
+    width: 6.31vw;
 }
 
 
 a.nav1{
-    height: 14px;
+    height: 1.44vh;
 }
 
 .navegador li a.nav9 , .navegador li a.nav10 {
-    width: 20px;
+    width: 2.07vw;
 }
 
 a.nav9, a.nav10{
-    height: 20px;
+    height: 2.07vh;
 }
 
 

@@ -1,6 +1,6 @@
 .App {
     display: flex;
-    margin-top: 10px;
+    margin-top: 1vh;
     width: 99vw;
     flex-direction: column;
     overflow-y: auto;

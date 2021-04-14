@@ -8,7 +8,7 @@
 .imagen1 {
     display: flex;
     width: 100%;
-    height: 692px;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -27,16 +27,16 @@
 }
 
 .cuerpo .vacio{ 
-    height: 18px;
+    height: 1.90vh;
 }
 
 .cuerpo .cuadroDeImagenes{
     display: grid;
-    grid-template-columns: 933.5px 933.5px;
-    grid-template-rows: 580px 580px;
-    gap: 12px;
-    margin-left: 12px;
-    margin-top: 12px;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 60% 60%;
+    gap: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .cuerpo .imagenConTexto1, .cuerpo .imagenConTexto2, .cuerpo .imagenConTexto3{
@@ -82,17 +82,16 @@
 .cuerpo .textoEnImagen1{
     top: 10%;
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .cuerpo .textoEnImagen2{
     position: absolute;
-    left: 28%;
     text-align: center;
     width: 100%;
     top: 20%;
-    width: 404px;
-    font-size: 24px;
+    width: 100%;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family:Xolonium;
     overflow-wrap: break-word;
@@ -100,5 +99,5 @@
 
 .cuerpo .textoEnImagen3{
     top: 32%;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
