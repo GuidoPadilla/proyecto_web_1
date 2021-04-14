@@ -15,3 +15,7 @@ creando un servidor local en el puerto 8080 siendo accesible en cualquier moment
 +`Webpack`<br/>
 +`ESlint`<br/>
 +`Babel`<br/>
++`CSS`<br/>
+## Contribuyentes
+correo: sebaspadilla2010@hotmail.com
+github: https://github.com/GuidoPadilla
