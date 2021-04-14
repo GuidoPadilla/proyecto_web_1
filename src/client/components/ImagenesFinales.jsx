@@ -20,7 +20,9 @@ const App = () => (
           <img src="https://www.asus.com/media/Odin/Websites/global/SiteSetting/20201105111458.jpg" alt="" />
           <div className={styles.textoImagenGaleria}>Tinker Board Forum</div>
         </a>
-        <button type="button">&gt;</button>
+        <div className={styles.boton}>
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDAgNTQiPg0KICAgIDxyZWN0IHdpZHRoPSIzOSIgaGVpZ2h0PSI1MyIgeD0iLjUiIHk9Ii41IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii40IiBzdHJva2U9IiMxODE4MTgiIHJ4PSIzLjUiLz4NCiAgICA8cGF0aCBzdHJva2U9IiMxODE4MTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTE1LjUgMTcuMDI1TDI1LjQ3NSAyNyAxNS41IDM2Ljk3NSIvPg0KPC9zdmc+DQo=" alt="" />
+        </div>
       </div>
     </div>
     <div className={styles.Cuadro}>
@@ -81,7 +83,9 @@ const App = () => (
           </div>
         </a>
       </div>
-      <button type="button">&gt;</button>
+      <div className={styles.boton}>
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDAgNTQiPg0KICAgIDxyZWN0IHdpZHRoPSIzOSIgaGVpZ2h0PSI1MyIgeD0iLjUiIHk9Ii41IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii40IiBzdHJva2U9IiMxODE4MTgiIHJ4PSIzLjUiLz4NCiAgICA8cGF0aCBzdHJva2U9IiMxODE4MTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTE1LjUgMTcuMDI1TDI1LjQ3NSAyNyAxNS41IDM2Ljk3NSIvPg0KPC9zdmc+DQo=" alt="" />
+      </div>
     </div>
   </div>
 )

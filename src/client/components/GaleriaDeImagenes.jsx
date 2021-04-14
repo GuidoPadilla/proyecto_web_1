@@ -32,7 +32,7 @@ const GaleriaDeImagenes = ({ links }) => {
     left: `${activo * 100}vw`,
   }
   const botonCorribleDer = {
-    left: `${96.85 + (activo * 100)}vw`,
+    left: `${96.8 + (activo * 100)}vw`,
   }
   const onHandleClickRight = () => {
     setActivo((activo + 1) % links.length)
@@ -57,11 +57,15 @@ const GaleriaDeImagenes = ({ links }) => {
   return (
     <div className={styles.galeria} style={galeriaStyle}>
       <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleIzq}>
-        <button type="button" onClick={onHandleClickLeft} className={estilo}>{'<'}</button>
+        <div type="button" tabIndex={0} onClick={onHandleClickLeft} className={estilo} role="button" onKeyDown={() => {}}>
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MCA1NCI+DQogICAgPHJlY3Qgd2lkdGg9IjM5IiBoZWlnaHQ9IjUzIiB4PSIuNSIgeT0iLjUiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjQiIHN0cm9rZT0iIzE4MTgxOCIgcng9IjMuNSIvPg0KICAgIDxwYXRoIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMjQuNSAzNi45NzVMMTQuNTI1IDI3bDkuOTc1LTkuOTc1Ii8+DQo8L3N2Zz4NCg==" alt="" />
+        </div>
       </div>
       {elementos(links)}
       <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleDer}>
-        <button type="button" onClick={onHandleClickRight} className={estilo}>{'>'}</button>
+        <div type="button" tabIndex={0} onClick={onHandleClickRight} className={estilo} role="button" onKeyDown={() => {}}>
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDAgNTQiPg0KICAgIDxyZWN0IHdpZHRoPSIzOSIgaGVpZ2h0PSI1MyIgeD0iLjUiIHk9Ii41IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii40IiBzdHJva2U9IiMxODE4MTgiIHJ4PSIzLjUiLz4NCiAgICA8cGF0aCBzdHJva2U9IiMxODE4MTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTE1LjUgMTcuMDI1TDI1LjQ3NSAyNyAxNS41IDM2Ljk3NSIvPg0KPC9zdmc+DQo=" alt="" />
+        </div>
       </div>
     </div>
   )

@@ -7,6 +7,16 @@
     font-family: Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
 }
 
+/* .imagenesFinales img{
+    overflow: hidden;
+    transition: transform 1s;
+}
+.imagenesFinales img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+} */
+
 .imagenesFinales .Galeria{
     display: flex;
     width: 100%;
@@ -26,13 +36,13 @@
     margin-bottom: 0.5%;
 }
 
-.imagenesFinales .Cuadro button{
+.imagenesFinales .Cuadro .boton{
     width: 2%;
+    cursor: pointer;
     position: absolute;
     height: 10%;
     top: 45%;
     left: 97%;
-    background-color: gray;
 }
 
 .imagenesFinales .Galeria .imagenesGaleria{
@@ -86,15 +96,18 @@
     font-family:  Myriad W08 Regular,Segoe UI,Arial,PingFang TC,Microsoft JhengHei,sans-serif;
 }
 
-.imagenesFinales .Galeria .imagenesGaleria button{
+.imagenesFinales .Galeria .imagenesGaleria .boton{
     cursor: pointer;
     height: 18%;
     left: 82%;
     width: 2%;
     position: absolute;
-    background-color: white;
 }
-
+.imagenesFinales .Galeria .imagenesGaleria .boton img{
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
 .imagenesFinales .Cuadro .cuadroTextoGrande{
     width: 50%;
     position: relative;
