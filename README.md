@@ -11,7 +11,7 @@ De forma opcional si se desea mantener este archivo para modificaciones de forma
 <br/>`npm run serve`<br/><br/>
 creando un servidor local en el puerto 8080 siendo accesible en cualquier momento mientras este en funcionamiento de forma local<br/>
 ## Tecnologias utilizadas
-+`React`
-+`Webpack`
-+`ESlint`
-+`Babel`
++`React`<br/>
++`Webpack`<br/>
++`ESlint`<br/>
++`Babel`<br/>
