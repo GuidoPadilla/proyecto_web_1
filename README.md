@@ -1,6 +1,9 @@
 # Proyecto Web 1 imitación de pagina existente
 ## Preview del proyecto en url
 [Link](http://ubeje.xyz/19200/proyecto_1_GP/index.html)
+La interaccion seleccionada esta en la siguiente imagen:<br/><br/>
+![image](https://user-images.githubusercontent.com/46847917/114817191-cdd62f80-9d76-11eb-87b7-1851562ed412.png)<br/><br/>
+donde al presionarse el boton se cambia de imagen de forma animada.<br/>
 ## Descripción
 Este proyecto se realizo por la entrega del proyecto #1 de sistemas y tecnologías web, donde se trato de realizar una imitación de la pagina principal de un sitio, en este caso se decidio realizar a [Asus](https://www.asus.com/), se utilizo el framework de react en conjunto con javascript y css para realizar la imitación, cabe resalatar que solamente se realizo el diseño de la pagina principal y no del sitio entero.
 ## Instalacion y Uso
