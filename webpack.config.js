@@ -41,6 +41,7 @@ module.exports = {
       <link rel="icon" 
       type="image/png" 
       href="https://external-preview.redd.it/PWytDBzDgUyXcwPVR1dpRk626T0IZNkZNIvcACfGQFU.png?auto=webp&s=fdd13ab8f38bf0c7a6073decce0b14b54121c4f7" />
+    </head>
     <body>
       <div id="root"></div>
     </body>
