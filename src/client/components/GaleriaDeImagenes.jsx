@@ -53,7 +53,9 @@ const GaleriaDeImagenes = ({ links }) => {
   const onHandleMouseLeave = () => {
     setEstilo(styles.botonNoActivo)
   }
-
+  /*
+  setInterval(() => (setActivo((activo + 1) % links.length)), 3000)
+  */
   return (
     <div className={styles.galeria} style={galeriaStyle}>
       <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleIzq}>

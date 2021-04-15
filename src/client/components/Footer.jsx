@@ -2,12 +2,17 @@ import React from 'react'
 import styles from '../styles/Footer.css'
 
 const Footer = () => {
+  let llave = 1
+  const siguienteLlave = () => {
+    llave += 1
+    return (llave - 1).toString()
+  }
   const enlistar = (array) => (
     array.map(([titulo, esTitulo]) => {
       if (esTitulo === true) {
-        return <li><div className={styles.subTitulo}>{titulo}</div></li>
+        return <li key={siguienteLlave()}><div className={styles.subTitulo}>{titulo}</div></li>
       }
-      return <li><a href="index.html">{titulo}</a></li>
+      return <li key={siguienteLlave()}><a href="index.html">{titulo}</a></li>
     })
   )
   return (
