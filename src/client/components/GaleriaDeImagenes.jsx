@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import styles from '../styles/GaleriaDeImagenes.css'
 
@@ -53,9 +53,14 @@ const GaleriaDeImagenes = ({ links }) => {
   const onHandleMouseLeave = () => {
     setEstilo(styles.botonNoActivo)
   }
-  /*
-  setInterval(() => (setActivo((activo + 1) % links.length)), 3000)
-  */
+  useEffect(() => {
+    const hola = setInterval(() => {
+      setActivo((oldActivo) => (oldActivo + 1) % links.length)
+    }, 3000)
+    return () => {
+      clearInterval(hola)
+    }
+  }, [])
   return (
     <div className={styles.galeria} style={galeriaStyle}>
       <div className={styles.panelButton} onMouseEnter={onHandleMouseEnter} onMouseLeave={onHandleMouseLeave} style={botonCorribleIzq}>
